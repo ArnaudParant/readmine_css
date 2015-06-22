@@ -1,0 +1,46 @@
+/* Immediat */
+table.issues tr:not(.context-menu-selection).priority-5
+{
+    background-color: #FFFF00;  /* Yellow */
+}
+
+/* Urgent */
+table.issues tr:not(.context-menu-selection).priority-4
+{
+    background-color: #FF0033;  /* Redest */
+    color: #FFFFFF;
+}
+table.issues tr:not(.context-menu-selection).priority-4 a
+{
+    color: #FFFFFF;
+}
+
+/* Haut */
+table.issues tr:not(.context-menu-selection).priority-3
+{
+    background-color: #FF6666;  /* Red */
+}
+
+/* Normal */
+table.issues tr:not(.context-menu-selection).priority-2
+{
+    background-color: #FFCC66;  /* Orange */
+}
+
+/* In progress */
+table.issues tr:not(.context-menu-selection).status-2
+{
+    background-color: #FFEE00;  /* Yellow */
+}
+
+/* Solved */
+table.issues tr:not(.context-menu-selection).status-4
+{
+    background-color: #CAFF70;  /* Green */
+}
+
+/* Closed */
+table.issues tr:not(.context-menu-selection).status-5
+{
+    background-color: #66EEEE;  /* Blue */
+}

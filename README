@@ -1,0 +1,6 @@
+CSS theme for RedMine
+
+=== StyleBot on Google Chrome ===
+Copy the content of redmine.css
+From ReadMine url
+Tools bar -> CSS -> Open StyleBot -> Edit CSS -> Paste -> Save
