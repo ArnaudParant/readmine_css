@@ -1,6 +1,15 @@
 CSS theme for RedMine
 
-=== StyleBot on Google Chrome ===
+=== StyleBot === for Google Chrome
 Copy the content of redmine.css
 From ReadMine url
 Tools bar -> CSS -> Open StyleBot -> Edit CSS -> Paste -> Save
+
+=== Stylish  === for - Firefox / Chrome / Safari
+Copy the content of redmine.css
+From ReadMine url
+Tools bar -> [S] -> write new style
+          -> for the domain or subdomain, example redmine.com
+          -> Enter a name
+          -> Paste under @-moz-document domain("redmine.com")
+          -> Save
