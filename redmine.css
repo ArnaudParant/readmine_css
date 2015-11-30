@@ -5,12 +5,12 @@ table.issues tr:not(.context-menu-selection).priority-5
 }
 
 /* Urgent */
-table.issues tr:not(.context-menu-selection).priority-4
+table.issues tr:not(.context-menu-selection):not(.status-4).priority-4
 {
     background-color: #FF0033;  /* Redest */
     color: #FFFFFF;
 }
-table.issues tr:not(.context-menu-selection).priority-4 a
+table.issues tr:not(.context-menu-selection):not(.status-4).priority-4 a
 {
     color: #FFFFFF;
 }
